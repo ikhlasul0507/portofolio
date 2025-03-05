@@ -506,6 +506,7 @@ strong {
 
 .hero-image-wrap {
   background: var(--white-color);
+  background-image: url("images/logo.png");
   border-radius: 100%;
   width: 350px;
   height: 350px;
@@ -519,11 +520,16 @@ strong {
 }
 
 .hero-image {
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
   position: absolute;
   z-index: 22;
-  top: 0;
-  width: 100%;
-  min-width: 550px;
+  top: -50px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  pointer-events: none;
 }
 
 .hero svg {
